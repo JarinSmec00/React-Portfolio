@@ -41,7 +41,7 @@ export const links = [
   },
 
   {
-    name: "Portfolio",
+    name: "Projects",
     icon: <FaFolderOpen className="nav-icon" />,
     path: "/portfolio",
   },
@@ -71,7 +71,7 @@ export const personalInfo = [
 
   {
     title: "Nationality : ",
-    description: "Tunisian",
+    description: "Bangladeshi",
   },
 
   {
@@ -81,47 +81,47 @@ export const personalInfo = [
 
   {
     title: "Address : ",
-    description: "Tunis",
+    description: "Dhaka, Bangladesh",
   },
 
   {
     title: "Phone : ",
-    description: "+21621184010",
+    description: "+880 1705948539",
   },
 
   {
     title: "Email : ",
-    description: "you@mail.com",
+    description: "jarintasnim1641@gmail.com",
   },
 
-  {
-    title: "Skype : ",
-    description: "steve.milner",
-  },
+  // {
+  //   title: "Skype : ",
+  //   description: "steve.milner",
+  // },
 
   {
-    title: "Langages : ",
-    description: "French, English",
+    title: "Languages : ",
+    description: "Bangla, English",
   },
 ];
 export const stats = [
   {
-    no: "12+",
+    no: "4+",
     title: "Years of <br /> Experience",
   },
 
   {
-    no: "97+",
+    no: "15+",
     title: "Completed <br /> Projects",
   },
 
   {
-    no: "81+",
+    no: "more+",
     title: "Happy <br /> Customers",
   },
 
   {
-    no: "53+",
+    no: "2+",
     title: " Awards <br /> Won",
   },
 ];
@@ -267,9 +267,9 @@ export const portfolio = [
   {
     id: 1,
     img: projectImg1,
-    title: "Coffee Website",
+    title: "Web-GIS Platform (GiMS)",
     description:
-      "Short description of the project that was carried out in this portfolio.",
+      "A powerful geospatial web application for visualizing and analyzing geographic data using interactive maps, 3D models, and multiple map layers.",
     skills: [skillsImg4, skillsImg5],
     link: "",
   },
@@ -277,9 +277,9 @@ export const portfolio = [
   {
     id: 2,
     img: projectImg2,
-    title: "Food Product Design",
+    title: "Employee Activity Tracker",
     description:
-      "Short description of the project that was carried out in this portfolio.",
+      "A role-based web system for tracking daily employee activities and generating detailed reports.",
     skills: [skillsImg6, skillsImg7],
     link: "",
   },
@@ -287,9 +287,9 @@ export const portfolio = [
   {
     id: 3,
     img: projectImg3,
-    title: "Restaurant Landing Page",
+    title: "Single Vendor E-commerce",
     description:
-      "Short description of the project that was carried out in this portfolio.",
+      "A complete e-commerce platform with product management, cart system, and secure payment integration.",
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: "",
   },
@@ -297,9 +297,9 @@ export const portfolio = [
   {
     id: 4,
     img: projectImg4,
-    title: "Barbershop Website",
+    title: "Bus Ticket Reservation System",
     description:
-      "Short description of the project that was carried out in this portfolio.",
+      "An online booking system for reserving bus tickets with email confirmation and seat management.",
     skills: [skillsImg4, skillsImg5],
     link: "",
   },
@@ -307,9 +307,9 @@ export const portfolio = [
   {
     id: 5,
     img: projectImg5,
-    title: "Construction Landing Page",
+    title: "SymbexBD Website",
     description:
-      "Short description of the project that was carried out in this portfolio.",
+      "A dynamic corporate website showcasing company products and services with a user-friendly interface.",
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: "",
   },

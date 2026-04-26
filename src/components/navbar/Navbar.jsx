@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import { links } from "../../Data";
 import { NavLink } from "react-router";
 import { RiCloseLine } from "react-icons/ri";
@@ -6,9 +6,10 @@ import { RiMenuFill } from "react-icons/ri";
 import "./navbar.css";
 
 const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <nav className="nav">
-      <div className="nav-menu">
+      <div className={`${showMenu ? "nav-menu show-menu" : "nav-menu"}`}>
         <ul className="nav-list grid">
           {links.map(({ name, icon, path }, index) => {
             return (
@@ -18,6 +19,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive ? "nav-link active-nav" : "nav-link"
                   }
+                  onClick={() => setShowMenu(!showMenu)}
                 >
                   {icon}
                   <h3 className="nav-name">{name}</h3>
@@ -26,9 +28,12 @@ const Navbar = () => {
             );
           })}
         </ul>
-        <RiCloseLine className="nav-close" />
+        <RiCloseLine
+          className="nav-close"
+          onClick={() => setShowMenu(!showMenu)}
+        />
       </div>
-      <div className="nav-toggle">
+      <div className="nav-toggle" onClick={() => setShowMenu(!showMenu)}>
         <RiMenuFill />
       </div>
     </nav>
